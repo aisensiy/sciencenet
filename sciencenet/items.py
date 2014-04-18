@@ -36,3 +36,7 @@ class ArticleItem(Item):
     rcmd_count = Field()
     rcmds = Field()
     comment_count = Field()
+
+class FriendLink(Item):
+    userurl = Field()
+    linkto = Field()
